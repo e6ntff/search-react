@@ -10,6 +10,14 @@ const GlobalStyle = createGlobalStyle`
     --main-font: Montserrat;
   }
 
+  #root {
+    block-size: 100%;
+    inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   body {
     background: var(--main-color);
     color: var(--accent-color);
